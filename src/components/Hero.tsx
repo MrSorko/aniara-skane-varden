@@ -1,37 +1,18 @@
-<<<<<<< HEAD
 import { ArrowRight, Heart } from "lucide-react";
-=======
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Heart, Shield, Users } from "lucide-react";
->>>>>>> ee06b2202c52649bbbc5d3c8813fa628fabcd0e9
 import heroImage from "@/assets/hero-medical-room.jpg";
 
 const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-subtle">
-<<<<<<< HEAD
       <div className="container mx-auto px-4 py-4 lg:py-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-12">
             <div className="space-y-4">
-=======
-      <div className="container mx-auto px-4 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Content */}
-          <div className="space-y-8">
-            <div className="space-y-4">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium">
-                <Shield className="h-4 w-4" />
-                På uppdrag av Region Skåne
-              </div>
-              
->>>>>>> ee06b2202c52649bbbc5d3c8813fa628fabcd0e9
               <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-foreground leading-tight">
                 Professionell psykiatrisk vård med 
                 <span className="text-primary"> trygghet</span> i fokus
               </h1>
-<<<<<<< HEAD
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -47,12 +28,6 @@ const Hero = () => {
                     Ring oss på <span className="font-medium text-foreground">076-270 71 49</span>
                   </div>
                 </div>
-=======
-              
-              <p className="text-xl text-muted-foreground leading-relaxed">
-                Vi erbjuder kvalificerad psykiatrisk vård via remiss från Region Skåne. 
-                Vården omfattas av högkostnadsskydd och frikort.
-              </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -100,11 +75,7 @@ const Hero = () => {
               <img
                 src={heroImage}
                 alt="Professionell och lugn vårdmiljö på Aniarapsykiatri"
-<<<<<<< HEAD
                 className="w-full h-[300px] object-cover"
-=======
-                className="w-full h-[600px] object-cover"
->>>>>>> ee06b2202c52649bbbc5d3c8813fa628fabcd0e9
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
