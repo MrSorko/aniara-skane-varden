@@ -12,15 +12,9 @@ const Contact = () => {
       
       <main>
         {/* Hero section */}
-<<<<<<< HEAD
         <section className="py-12 lg:py-16 bg-gradient-subtle">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
-=======
-        <section className="py-16 lg:py-24 bg-gradient-subtle">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
->>>>>>> ee06b2202c52649bbbc5d3c8813fa628fabcd0e9
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">
                 Kontakta <span className="text-primary">Aniarapsykiatri</span>
               </h1>
@@ -52,11 +46,7 @@ const Contact = () => {
                         </div>
                         <div className="space-y-2">
                           <h3 className="text-lg font-semibold text-foreground">Telefon</h3>
-<<<<<<< HEAD
                           <p className="text-2xl font-bold text-primary">076 567 79 97</p>
-=======
-                          <p className="text-2xl font-bold text-primary">040-123 45 67</p>
->>>>>>> ee06b2202c52649bbbc5d3c8813fa628fabcd0e9
                           <p className="text-muted-foreground">
                             Vardagar 08:00-17:00<br />
                             För akuta ärenden, ring alltid 112
@@ -78,32 +68,6 @@ const Contact = () => {
                           <p className="text-xl font-bold text-secondary">info@aniarapsykiatri.se</p>
                           <p className="text-muted-foreground">
                             Vi svarar inom 24 timmar på vardagar<br />
-<<<<<<< HEAD
-=======
-                            För icke-akuta frågor och information
-                          </p>
-                        </div>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  {/* Address */}
-                  <Card className="hover:shadow-card transition-all duration-300">
-                    <CardContent className="p-6">
-                      <div className="flex items-start gap-4">
-                        <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center">
-                          <MapPin className="h-6 w-6 text-primary-foreground" />
-                        </div>
-                        <div className="space-y-2">
-                          <h3 className="text-lg font-semibold text-foreground">Adress</h3>
-                          <p className="text-lg font-medium text-foreground">
-                            Storgatan 15<br />
-                            211 34 Malmö
-                          </p>
-                          <p className="text-muted-foreground">
-                            Centralt beläget nära Triangeln<br />
-                            God kollektivtrafikförbindelse
->>>>>>> ee06b2202c52649bbbc5d3c8813fa628fabcd0e9
                           </p>
                         </div>
                       </div>
@@ -138,20 +102,6 @@ const Contact = () => {
                     </CardContent>
                   </Card>
                 </div>
-<<<<<<< HEAD
-=======
-
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                  <Button variant="medical" size="lg" className="flex-1">
-                    <MessageSquare className="h-5 w-5 mr-2" />
-                    Boka tid
-                  </Button>
-                  <Button variant="care" size="lg" className="flex-1">
-                    Ställ en fråga
-                  </Button>
-                </div>
->>>>>>> ee06b2202c52649bbbc5d3c8813fa628fabcd0e9
               </div>
 
               {/* Image and additional info */}
@@ -217,19 +167,6 @@ const Contact = () => {
                 </div>
               </CardContent>
             </Card>
-<<<<<<< HEAD
-=======
-
-            <div className="mt-8 text-center">
-              <p className="text-muted-foreground mb-4">
-                Parkering finns i närområdet. Mottagningen ligger på bottenvåningen med 
-                hisstillgång för rullstolsburna.
-              </p>
-              <Button variant="care">
-                Få vägbeskrivning
-              </Button>
-            </div>
->>>>>>> ee06b2202c52649bbbc5d3c8813fa628fabcd0e9
           </div>
         </section>
       </main>
