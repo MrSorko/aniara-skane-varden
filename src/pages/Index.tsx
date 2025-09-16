@@ -11,6 +11,10 @@ const Index = () => {
       <main>
         <Hero />
         <HowItWorks />
+<<<<<<< HEAD
+=======
+        <Services />
+>>>>>>> ee06b2202c52649bbbc5d3c8813fa628fabcd0e9
       </main>
       <Footer />
     </div>
