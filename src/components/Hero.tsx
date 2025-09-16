@@ -28,43 +28,6 @@ const Hero = () => {
                     Ring oss på <span className="font-medium text-foreground">076-270 71 49</span>
                   </div>
                 </div>
-            </div>
-
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="medical" size="lg" className="group">
-                Boka tid
-                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-              </Button>
-              <Button variant="care" size="lg">
-                Så funkar det
-              </Button>
-            </div>
-
-            {/* Trust indicators */}
-            <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
-              <div className="text-center">
-                <div className="flex justify-center mb-2">
-                  <Heart className="h-8 w-8 text-secondary" />
-                </div>
-                <div className="text-2xl font-bold text-foreground">15+</div>
-                <div className="text-sm text-muted-foreground">År av erfarenhet</div>
-              </div>
-              
-              <div className="text-center">
-                <div className="flex justify-center mb-2">
-                  <Users className="h-8 w-8 text-secondary" />
-                </div>
-                <div className="text-2xl font-bold text-foreground">500+</div>
-                <div className="text-sm text-muted-foreground">Hjälpta patienter</div>
-              </div>
-              
-              <div className="text-center">
-                <div className="flex justify-center mb-2">
-                  <Shield className="h-8 w-8 text-secondary" />
-                </div>
-                <div className="text-2xl font-bold text-foreground">100%</div>
-                <div className="text-sm text-muted-foreground">Legitimerad personal</div>
->>>>>>> ee06b2202c52649bbbc5d3c8813fa628fabcd0e9
               </div>
             </div>
           </div>
