@@ -9,8 +9,8 @@ const HowItWorks = () => {
       description: (
         <span>
           Skriv SMS till{" "}
-          <a href="tel:+46762707149" className="font-medium text-foreground hover:underline">
-            076-270 71 49
+          <a href="tel:+46760075471" className="font-medium text-foreground hover:underline">
+            076 007 54 71
           </a>{" "}
           eller mejla{" "}
           <a href="mailto:aniarapsykiatri@gmail.com" className="font-medium text-foreground hover:underline">
