@@ -40,11 +40,11 @@ const HowItWorks = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           {steps.map((step, index) => (
             <div key={index} className="relative">
               <Card className="h-full hover:shadow-card transition-all duration-300 hover:-translate-y-1">
-                <CardContent className="p-8">
+                <CardContent className="p-6">
                   <div className="flex flex-col items-center text-center space-y-4">
                     <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center shadow-soft">
                       <step.icon className="h-8 w-8 text-primary-foreground" />
@@ -63,7 +63,7 @@ const HowItWorks = () => {
               
               {/* Arrow mellan korten */}
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute -right-4 top-1/2 transform -translate-y-1/2 z-10">
+                <div className="hidden md:flex absolute -right-4 top-1/2 transform -translate-y-1/2 z-10">
                   <ArrowRight className="h-6 w-6 text-primary" />
                 </div>
               )}
@@ -73,7 +73,7 @@ const HowItWorks = () => {
         {/* Avgifter & ersättning kort - full width, centrerad */}
         <div className="mt-8">
           <Card className="w-full hover:shadow-card transition-all duration-300 hover:-translate-y-1">
-            <CardContent className="p-8">
+            <CardContent className="p-6">
               <div className="flex flex-col items-center text-center space-y-4">
                 <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center shadow-soft">
                   <CreditCard className="h-8 w-8 text-primary-foreground" />

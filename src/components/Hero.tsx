@@ -40,7 +40,7 @@ const Hero = () => {
           <div className="relative">
             
             {/* Floating card */}
-            <div className="absolute -bottom-6 -left-6 bg-background rounded-xl shadow-card p-6 border border-border">
+            <div className="absolute -bottom-6 -left-6 sm:-bottom-4 sm:-left-4 bg-background rounded-xl shadow-card p-6 border border-border">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center">
                   <Heart className="h-6 w-6 text-primary-foreground" />
