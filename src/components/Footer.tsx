@@ -25,12 +25,12 @@ const Footer = () => {
             <div className="space-y-1">
               <div className="flex items-start justify-end gap-3">
                 <Phone className="h-5 w-5 text-background/60 mt-0.5" />
-                <div className="text-background">040-123 45 67</div>
+                <div className="text-background">076 007 54 71</div>
               </div>
               
               <div className="flex items-start justify-end gap-3">
                 <Mail className="h-5 w-5 text-background/60 mt-0.5" />
-                <div className="text-background">kontakt@aniarapsykiatri.se</div>
+                <div className="text-background">aniarapsykiatri@gmail.com</div>
               </div>
               
               <div className="flex items-start justify-end gap-3">
@@ -47,7 +47,7 @@ const Footer = () => {
         <div className="mt-3 pt-4 border-t border-background/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-sm text-background/60">
-              © 2025 Aniarapsykiatri. Organisationsnummer: 123456-7890
+              © 2025 Aniarapsykiatri. Organisationsnummer: 559310-7914
             </div>
             
             <div className="flex items-center gap-6 text-sm text-background/60">

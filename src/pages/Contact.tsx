@@ -48,8 +48,10 @@ const Contact = () => {
                           <h3 className="text-lg font-semibold text-foreground">Telefon</h3>
                           <p className="text-2xl font-bold text-primary">076 567 79 97</p>
                           <p className="text-muted-foreground">
-                            Vardagar 08:00-17:00<br />
-                            För akuta ärenden, ring alltid 112
+                            Skicka ett kort SMS med dina uppgifter så hör vi av oss så snart som möjligt.
+                            <br /> 
+                            <br />
+                            Du kan även ringa vardagar 16:00–17:00 för att komma i direkt kontakt med Dr. Bokan Barazanji.
                           </p>
                         </div>
                       </div>
@@ -65,9 +67,9 @@ const Contact = () => {
                         </div>
                         <div className="space-y-2">
                           <h3 className="text-lg font-semibold text-foreground">E-post</h3>
-                          <p className="text-xl font-bold text-secondary">info@aniarapsykiatri.se</p>
+                          <p className="text-xl font-bold text-secondary">aniarapsykiatri@gmail.com</p>
                           <p className="text-muted-foreground">
-                            Vi svarar inom 24 timmar på vardagar<br />
+                            Vi svarar inom 48 timmar på vardagar<br />
                           </p>
                         </div>
                       </div>
@@ -146,27 +148,9 @@ const Contact = () => {
                 Hitta till oss
               </h2>
               <p className="text-muted-foreground">
-                Centralt beläget i Malmö med god tillgång till kollektivtrafik
+                Samma lokaler som Mindler
               </p>
             </div>
-
-            <Card className="max-w-4xl mx-auto">
-              <CardContent className="p-0">
-                <div className="bg-muted h-96 rounded-lg flex items-center justify-center">
-                  <div className="text-center space-y-4">
-                    <MapPin className="h-12 w-12 text-primary mx-auto" />
-                    <div>
-                      <p className="text-lg font-semibold text-foreground">
-                        Storgatan 15, 211 34 Malmö
-                      </p>
-                      <p className="text-muted-foreground">
-                        Karta och vägbeskrivning
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </section>
       </main>

@@ -6,26 +6,14 @@ const Services = () => {
     {
       icon: Brain,
       title: "Psykiatrisk bedömning",
-      description: "Grundlig utredning och diagnostik av psykiska besvär med moderna bedömningsmetoder.",
+      description: "Grundlig utredning och diagnostik av psykiska besvär.",
       features: ["Klinisk intervju", "Standardiserade bedömningsskalor", "Individuell behandlingsplan"]
-    },
-    {
-      icon: MessageCircle,
-      title: "Psykoterapi & samtalsterapi",
-      description: "Evidensbaserad terapi anpassad efter dina behov och preferenser.",
-      features: ["KBT (Kognitiv beteendeterapi)", "DBT (Dialektisk beteendeterapi)", "Stödsamtal"]
     },
     {
       icon: Stethoscope,
       title: "Läkarkontakt & medicinering",
       description: "Medicinsk behandling och uppföljning av legitimerad läkare specialiserad inom psykiatri.",
       features: ["Medicinjustering", "Biverkningsuppföljning", "Regelbunden kontakt"]
-    },
-    {
-      icon: Users,
-      title: "Anhörigstöd",
-      description: "Stöd och information till anhöriga för att skapa förståelse och stärka familjenätverket.",
-      features: ["Informationssamtal", "Familjesamtal", "Stödgrupper"]
     }
   ];
 
@@ -54,7 +42,7 @@ const Services = () => {
             </h1>
 
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Vi erbjuder ett brett utbud av psykiatriska tjänster med fokus på individuell behandling och god omvårdnad.
+              Med fokus på din unika berättelse, behov och strävan efter enkel och snabb tillgänglighet
             </p>
           </div>
         </div>

@@ -16,32 +16,28 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <div className="flex items-center gap-4 px-6 py-5 rounded-xl border border-border bg-card shadow-sm">
-                <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10">
-                  <ArrowRight className="h-6 w-6 text-primary" />
+            <div className="flex items-center gap-4 px-6 py-5 rounded-xl border border-border bg-card shadow-sm">
+              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-primary/10">
+                <ArrowRight className="h-6 w-6 text-primary" />
+              </div>
+              <div>
+                <div className="text-lg font-semibold text-foreground">
+                  Kontakta oss för att boka tid
                 </div>
-                <div>
-                  <div className="text-lg font-semibold text-foreground">
-                    Kontakta oss för att boka tid
-                  </div>
-                  <div className="text-muted-foreground">
-                    Ring oss på <span className="font-medium text-foreground">076-270 71 49</span>
-                  </div>
+                <div className="text-muted-foreground">
+                  Skriv SMS till{" "}
+                  <span className="font-medium text-foreground">076-270 71 49</span>{" "}
+                  <br />
+                  eller ring vardagar mellan{" "}
+                  <span className="font-medium text-foreground">16:00 – 17:00</span>
                 </div>
               </div>
+            </div>
             </div>
           </div>
 
           {/* Image */}
           <div className="relative">
-            <div className="relative overflow-hidden rounded-2xl shadow-hero">
-              <img
-                src={heroImage}
-                alt="Professionell och lugn vårdmiljö på Aniarapsykiatri"
-                className="w-full h-[300px] object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
-            </div>
             
             {/* Floating card */}
             <div className="absolute -bottom-6 -left-6 bg-background rounded-xl shadow-card p-6 border border-border">

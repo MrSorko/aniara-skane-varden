@@ -10,6 +10,7 @@ import HowItWorks from "./pages/HowItWorks";
 import Contact from "./pages/Contact";
 import News from "./pages/News";
 import NotFound from "./pages/NotFound";
+import Faq from "./pages/Faq";
 
 const queryClient = new QueryClient();
 
@@ -25,7 +26,7 @@ const App = () => (
           <Route path="/vard-tjanster" element={<Services />} />
           <Route path="/sa-funkar-det" element={<HowItWorks />} />
           <Route path="/kontakt" element={<Contact />} />
-          <Route path="/aktuellt" element={<News />} />
+          <Route path="/faq" element={<Faq />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
