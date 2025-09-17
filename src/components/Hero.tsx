@@ -26,7 +26,7 @@ const Hero = () => {
                 </div>
                 <div className="text-muted-foreground">
                   Skriv SMS till{" "}
-                  <span className="font-medium text-foreground">076-270 71 49</span>{" "}
+                  <span className="font-medium text-foreground">076 007 54 71</span>{" "}
                   <br />
                   eller ring vardagar mellan{" "}
                   <span className="font-medium text-foreground">16:00 – 17:00</span>

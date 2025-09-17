@@ -22,11 +22,11 @@ const Header = () => {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              <span>076-270 71 49</span>
+              <span>076 007 54 71</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              <span>kontakt@aniarapsykiatri.se</span>
+              <span>aniarapsykiatri@gmail.com</span>
             </div>
           </div>
         </div>
