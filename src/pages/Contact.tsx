@@ -46,7 +46,7 @@ const Contact = () => {
                         </div>
                         <div className="space-y-2">
                           <h3 className="text-lg font-semibold text-foreground">Telefon</h3>
-                          <p className="text-2xl font-bold text-primary">076 567 79 97</p>
+                          <p className="text-2xl font-bold text-primary">076 007 54 71</p>
                           <p className="text-muted-foreground">
                             Skicka ett kort SMS med dina uppgifter så hör vi av oss så snart som möjligt.
                             <br /> 
