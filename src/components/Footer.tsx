@@ -36,7 +36,7 @@ const Footer = () => {
               <div className="flex items-start justify-end gap-3">
                 <MapPin className="h-5 w-5 text-background/60 mt-0.5" />
                 <div>
-                  <div className="text-background">Jörgen koksgatan 9</div>
+                  <div className="text-background">Jörgen kocksgatan 9</div>
                   <div className="text-background">211 20 Malmö</div>
                 </div>
               </div>
