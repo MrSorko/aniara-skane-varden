@@ -12,29 +12,46 @@ import News from "./pages/News";
 import NotFound from "./pages/NotFound";
 import Faq from "./pages/Faq";
 import ScrollToTop from "./components/ScrollToTop";
+import { useEffect } from "react";
 
 const queryClient = new QueryClient();
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/om-oss" element={<About />} />
-          <Route path="/vard-tjanster" element={<Services />} />
-          <Route path="/sa-funkar-det" element={<HowItWorks />} />
-          <Route path="/kontakt" element={<Contact />} />
-          <Route path="/faq" element={<Faq />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+const App = () => {
+  // useEffect här
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.text = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Aniara Psykiatri",
+      "url": "https://www.aniarapsykiatri.se",
+      "telephone": "+46701234567"
+    });
+    document.head.appendChild(script);
+  }, []);
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/om-oss" element={<About />} />
+            <Route path="/vard-tjanster" element={<Services />} />
+            <Route path="/sa-funkar-det" element={<HowItWorks />} />
+            <Route path="/kontakt" element={<Contact />} />
+            <Route path="/faq" element={<Faq />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </TooltipProvider>
+    </QueryClientProvider>
+  );
+};
 
 export default App;
