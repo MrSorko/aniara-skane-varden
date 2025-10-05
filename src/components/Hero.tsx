@@ -22,18 +22,21 @@ const Hero = () => {
               <div className="text-2xl font-semibold text-foreground">
                 Kontakta oss för att boka tid
               </div>
-              <div className="text-muted-foreground mt-1">
-                genom att skriva SMS till{" "}
-                <span className="font-medium text-foreground">
-                  <a href="tel:+46760075471" className="hover:underline">
-                    076 007 54 71
-                  </a>
-                </span>
-                <br />
-                eller maila till{" "}
-                <span className="font-medium text-foreground">
-                  aniarapsykiatri@gmail.com
-                </span>
+              <div className="text-muted-foreground mt-1 space-y-1">
+                <div className="whitespace-nowrap">
+                  genom att skriva SMS till{" "}
+                  <span className="font-medium text-foreground">
+                    <a href="tel:+46760075471" className="hover:underline">
+                      076 007 54 71
+                    </a>
+                  </span>
+                </div>
+                <div className="whitespace-nowrap">
+                  eller maila till{" "}
+                  <span className="font-medium text-foreground">
+                    aniarapsykiatri@gmail.com
+                  </span>
+                </div>
               </div>
             </div>
           </div>
