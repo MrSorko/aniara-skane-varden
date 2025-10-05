@@ -47,7 +47,7 @@ const About = () => {
 
         {/* Mission Section */}
         <section className="py-16 lg:py-24">
-          <div className="container mx-auto px-48">
+          <div className="container mx-auto px-12">
             <div className="grid lg:grid-cols-1 gap-12 items-start">
               {/* Vänster kolumn: Filosofi */}
               <div className="space-y-8">
