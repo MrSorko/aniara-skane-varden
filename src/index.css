@@ -2,99 +2,69 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Aniarapsykiatri Design System - Calm, trustworthy medical design */
-
 @layer base {
   :root {
-    /* Core calm palette - soft blues and healing greens */
-    --background: 210 60% 92%;       /* Ljus, mjuk blå */
-    --foreground: 215 25% 20%;       /* Mörk text för bra kontrast */
+    /* === Mörkare bakgrund, inspirerad av loggan === */
+    --background: 220 40% 12%;       /* djup marinblå (#0e1a2b) */
+    --foreground: 350 25% 70%;       /* ljusrosa/beige text */
+    
 
-    /* Card system */
-    --card: 0 0% 100%;               /* Vit kortbakgrund */
-    --card-foreground: 215 25% 20%;
-    --card-hover: 210 17% 98%;       /* Ljus hover-effekt */
+    /* Kort & ytor */
+    --card: 220 30% 16%;
+    --card-foreground: 350 25% 88%;
+    --card-hover: 220 30% 20%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 20%;
-
-    /* Primary - Trustworthy soft blue */
-    --primary: 210 65% 55%;
+    /* === Primär: röd från loggan === */
+    --primary: 0 65% 45%;            /* djup röd (#a12b2b) */
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 210 65% 50%;
+    --primary-hover: 0 70% 40%;
 
-    /* Secondary - Calm pastel green */
-    --secondary: 165 45% 58%;
-    --secondary-foreground: 0 0% 100%;
-    --secondary-hover: 165 45% 53%;
+    /* === Sekundär: mild rosa ton === */
+    --secondary: 350 30% 70%;        /* (#c9a7a8) */
+    --secondary-foreground: 220 30% 15%;
+    --secondary-hover: 350 25% 65%;
 
-    /* Muted tones for subtle elements */
-    --muted: 210 17% 97%;
-    --muted-foreground: 215 15% 50%;
-
-    /* Accent - warm, welcoming */
-    --accent: 200 60% 60%;
+    /* === Accent: röd-orange från lågan === */
+    --accent: 10 100% 45%;            /* (#d64c3b) */
     --accent-foreground: 0 0% 100%;
 
-    /* Warning / alert */
-    --warning: 45 100% 90%;
-    --warning-foreground: 45 100% 25%;
-
-    --destructive: 0 75% 70%;
-    --destructive-foreground: 0 0% 100%;
-
-    /* Borders & inputs */
-    --border: 210 17% 90%;
-    --input: 210 17% 94%;
-    --ring: 210 65% 55%;
+    /* === Muted & borders === */
+    --muted: 220 25% 18%;
+    --muted-foreground: 350 20% 70%;
+    --border: 220 20% 25%;
+    --input: 220 20% 28%;
+    --ring: 0 65% 45%;
     --radius: 0.75rem;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 70%);
-    --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)) 0%, hsl(200 60% 60%) 70%);
+    /* === Gradients === */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)) 100%, hsl(var(--accent)) 65%);
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(var(--muted)) 100%);
 
-    /* Shadows */
-    --shadow-soft: 0 2px 15px -4px hsl(var(--primary) / 0.08);
-    --shadow-card: 0 4px 20px -6px hsl(var(--primary) / 0.12);
-    --shadow-hero: 0 10px 40px -12px hsl(var(--primary) / 0.15);
+    /* === Skuggor === */
+    --shadow-soft: 0 2px 15px -4px hsl(var(--primary) / 0.1);
+    --shadow-card: 0 4px 20px -6px hsl(var(--primary) / 0.15);
+    --shadow-hero: 0 10px 40px -12px hsl(var(--primary) / 0.2);
 
-    /* Smooth transitions */
+    /* === Transitions === */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-gentle: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
 
-  /* Dark mode adjustments */
+  /* === Dark mode (nästan samma, för konsistens) === */
   .dark {
-    --background: 222 20% 15%;       /* Mild dark blue */
-    --foreground: 210 35% 95%;       /* Ljus text på mörk bakgrund */
-
-    --card: 222 20% 20%;             /* Mörkt kort */
-    --card-foreground: 210 35% 95%;
-    --card-hover: 222 20% 30%;
-
-    --primary: 210 40% 95%;
-    --primary-foreground: 222 20% 20%;
-    --primary-hover: 210 40% 90%;
-
-    --secondary: 165 40% 45%;
-    --secondary-foreground: 210 35% 95%;
-
-    --muted: 217 20% 18%;
-    --muted-foreground: 215 20% 65%;
-
-    --accent: 200 40% 50%;
-    --accent-foreground: 210 35% 95%;
-
-    --destructive: 0 50% 60%;
-    --destructive-foreground: 210 35% 95%;
-
-    --border: 217 20% 25%;
-    --input: 217 20% 28%;
-    --ring: 212 30% 70%;
+    --background: 220 40% 10%;
+    --foreground: 350 25% 88%;
+    --card: 220 30% 15%;
+    --card-foreground: 350 25% 88%;
+    --primary: 0 65% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 350 30% 70%;
+    --accent: 10 70% 55%;
+    --muted: 220 25% 18%;
+    --border: 220 25% 22%;
+    --ring: 0 65% 55%;
   }
 
-  /* Apply global styles */
   body {
     @apply bg-background text-foreground;
   }
@@ -103,23 +73,19 @@
     @apply border-border;
   }
 
-  /* Smooth transitions for interactive elements */
   button, a {
     transition: var(--transition-smooth);
   }
 
-  /* Card hover */
   .card:hover {
     box-shadow: var(--shadow-card);
   }
 
-  /* Hero section */
   .hero {
     background: var(--gradient-subtle);
     box-shadow: var(--shadow-hero);
   }
 
-  /* Buttons */
   .btn-primary {
     background-color: hsl(var(--primary));
     color: hsl(var(--primary-foreground));

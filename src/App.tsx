@@ -40,7 +40,7 @@ const App = () => {
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/om-oss" element={<About />} />
+            <Route path="/om-mig" element={<About />} />
             <Route path="/vard-tjanster" element={<Services />} />
             <Route path="/sa-funkar-det" element={<HowItWorks />} />
             <Route path="/kontakt" element={<Contact />} />

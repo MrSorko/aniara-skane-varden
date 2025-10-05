@@ -48,10 +48,10 @@ const Contact = () => {
                           <h3 className="text-lg font-semibold text-foreground">Telefon</h3>
                           <p className="text-2xl font-bold text-primary">076 007 54 71</p>
                           <p className="text-muted-foreground">
-                            Skicka ett kort SMS med dina uppgifter så hör vi av oss så snart som möjligt.
+                            Skicka ett kort SMS med dina uppgifter så hör jag av mig så snart jag kan.
                             <br /> 
                             <br />
-                            Du kan även ringa vardagar 16:00–17:00 för att komma i direkt kontakt med Dr. Bokan Barazanji.
+                            Du kan även ringa vardagar 16:00–17:00 för att komma i direkt kontakt med mig.
                           </p>
                         </div>
                       </div>
@@ -124,14 +124,13 @@ const Contact = () => {
                       Första besöket
                     </h3>
                     <p className="text-muted-foreground mb-6">
-                      Ditt första besök hos oss tar cirka 60 minuter. Vi går igenom din 
+                      Under ditt första besök går vi igenom din 
                       hälsosituation, diskuterar behandlingsmöjligheter och skapar en 
                       individuell vårdplan tillsammans.
                     </p>
                     <div className="space-y-2 text-sm text-muted-foreground">
                       <p>• Ta med giltig legitimation</p>
                       <p>• Kom i god tid för din bokade tid</p>
-                      <p>• Förbered dig genom att tänka igenom dina symtom</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -145,10 +144,12 @@ const Contact = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-foreground mb-4">
-                Hitta till oss
+                Hitta till mottagningen Aniarapsykiatri
               </h2>
               <p className="text-muted-foreground">
-                Samma lokaler som Mindler
+                Jörgen kocksgatan 9, 211 20 Malmö
+                <br />
+                "Samma lokaler som Mindler"
               </p>
             </div>
           </div>

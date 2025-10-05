@@ -7,7 +7,7 @@ const Header = () => {
 
   const navigationItems = [
     { name: "Hem", href: "/" },
-    { name: "Om oss", href: "/om-oss" },
+    { name: "Om mig", href: "/om-mig" },
     { name: "Vård & tjänster", href: "/vard-tjanster" },
     //{ name: "Så funkar det", href: "/sa-funkar-det" },
     { name: "Kontakt", href: "/kontakt" },

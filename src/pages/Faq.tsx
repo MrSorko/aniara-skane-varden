@@ -16,7 +16,7 @@ export default function Faq() {
                 Frågor och svar
               </h1>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Vi har sammanställt svar på frågor som kan hjälpa dig boka tid, förstå vår vård och känna dig trygg under ditt besök hos oss.
+                Jag har sammanställt svar på frågor som kan hjälpa dig när du ska boka tid, förstå mottagningens möjligheter och känna dig trygg under ditt besök hos mig.
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ export default function Faq() {
                     {/* Question 1 */}
                     <div>
                       <h3 className="text-xl font-semibold text-foreground mb-2">Hur snabbt kan jag få tid?</h3>
-                      <p>Vi strävar efter att erbjuda tider så snart som möjligt, normalt inom en vecka.</p>
+                      <p>Jag strävar efter att erbjuda tider så snart som möjligt, normalt inom en vecka.</p>
                     </div>
 
                     {/* Question 2 */}
@@ -57,18 +57,21 @@ export default function Faq() {
                         <li>Du har fyllt 85 år</li>
                         <li>Du har ett frikort</li>
                       </ul>
+                      <br />
+                      Jag förstår att det ibland kan vara ekonomiskt ansträngt. Du är alltid välkommen att prata med mig om det – jag kan bevilja undantag från avgiften när det behövs.
+                      Jag vill att vården ska vara tillgänglig för alla.
                     </div>
 
                     {/* Question 4 */}
                     <div>
                       <h3 className="text-xl font-semibold text-foreground mb-2">Kan jag få hjälp med utredning?</h3>
-                      <p>Ja, vi erbjuder psykiatriska utredningar och samarbetar med externa aktörer vid behov. Vi guidar dig genom hela processen.</p>
+                      <p>Ja, jag erbjuder psykiatriska utredningar. Ibland samarbetar jag med externa aktörer vid behov. Jag guidar dig genom hela processen.</p>
                     </div>
 
                     {/* Question 5 */}
                     <div>
                       <h3 className="text-xl font-semibold text-foreground mb-2">Kan jag få medicinsk behandling?</h3>
-                      <p>Ja, vi erbjuder medicinsk behandling vid behov och följer upp resultaten noggrant.</p>
+                      <p>Ja, jag erbjuder medicinsk behandling och följer upp resultaten noggrant.</p>
                     </div>
 
                     {/* Question 6 */}

@@ -26,7 +26,7 @@ const Services = () => {
     {
       icon: Shield,
       title: "Trygg miljö",
-      description: "Professionell och välkomnande atmosfär där du känner dig trygg"
+      description: "Professionell och välkomnande atmosfär där du ska känna dig trygg"
     }
   ];
 
@@ -38,7 +38,7 @@ const Services = () => {
           <div className="max-w-4xl mx-auto text-center space-y-6">
 
             <h1 className="text-4xl lg:text-5xl font-bold text-foreground">
-              Professionell psykiatrisk vård
+              Psykiatrisk vård
             </h1>
 
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -60,14 +60,14 @@ const Services = () => {
                       <service.icon className="h-6 w-6 text-primary-foreground" />
                     </div>
                     
-                    <div className="flex-1 space-y-4">
+                    <div className="flex-1 space-y-6">
                       <h3 className="text-xl font-bold text-foreground">{service.title}</h3>
-                      <p className="text-muted-foreground">{service.description}</p>
+                      <p className="text-l text-muted-foreground">{service.description}</p>
                       <div className="space-y-2">
                         {service.features.map((feature, idx) => (
                           <div key={idx} className="flex items-center gap-2">
                             <div className="w-2 h-2 bg-secondary rounded-full" />
-                            <span className="text-sm text-muted-foreground">{feature}</span>
+                            <span className="text-l text-muted-foreground">{feature}</span>
                           </div>
                         ))}
                       </div>
@@ -87,8 +87,8 @@ const Services = () => {
                     <quality.icon className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-foreground mb-1">{quality.title}</h4>
-                    <p className="text-muted-foreground">{quality.description}</p>
+                    <h4 className="text-xl font-semibold text-foreground mb-1">{quality.title}</h4>
+                    <p className="text-l text-muted-foreground">{quality.description}</p>
                   </div>
                 </div>
               ))}

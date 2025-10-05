@@ -33,12 +33,12 @@ const About = () => {
             <div className="max-w-4xl mx-auto text-center space-y-6">
               
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground">
-                Professionell psykiatri med <span className="text-primary">människan i centrum</span>
+                Psykiatri med <span className="text-primary">människan i centrum</span>
               </h1>
               
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Vi är en privat psykiatrimottagning som arbetar på uppdrag av Region Skåne. 
-                Vår mission är att erbjuda högkvalitativ psykiatrisk vård i en trygg och 
+                Jag driver en privat psykiatrimottagning som arbetar på uppdrag av Region Skåne. 
+                Min mission är att erbjuda högkvalitativ psykiatrisk vård i en trygg och 
                 välkomnande miljö.
               </p>
             </div>
@@ -52,69 +52,33 @@ const About = () => {
               {/* Vänster kolumn: Filosofi */}
               <div className="space-y-8">
                 <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
-                  Vår filosofi och värderingar
+                  Min filosofi och värderingar
                 </h2>
 
                 <div className="space-y-6">
                   <p className="text-lg text-muted-foreground">
                     Hos Aniara Psykiatri möts du med respekt, lyhördhet och en genuin vilja att förstå just dina behov. 
                     Här står du som människa i centrum, inte enbart din diagnos eller dina symtom. 
-                    Vår ambition är att skapa en trygg plats där du kan få stöd, behandling och vägledning utifrån din unika livssituation.
+                    Min ambition är att skapa en trygg plats där du kan få stöd, behandling och vägledning utifrån din unika livssituation.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    Mottagningen drivs av specialistläkare i psykiatri med bred erfarenhet av att bedöma och behandla ett stort spektrum av psykiatriska tillstånd. 
+                    Mottagningen drivs av mig, Bokan Barazanji, specialistläkare i psykiatri med bred erfarenhet av att bedöma och behandla ett stort spektrum av psykiatriska tillstånd. 
                     Här finns även möjlighet till utredning, regelbunden uppföljning och läkemedelsbehandling.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    Vi finns för de som söker stöd och vägledning i livets mer svårnavigerade skeden. 
-                    Hos oss erbjuds psykiatriska bedömningar, utredningar, samtal, medicinsk behandling och uppföljning med utgångspunkt i dina individuella behov. 
-                    Vi möter dig med respekt, nyfikenhet och lyhördhet.
+                    Jag finns för de som söker stöd och vägledning i livets mer svårnavigerade skeden. 
+                    Jag erbjuder psykiatriska bedömningar, utredningar, samtal, medicinsk behandling och uppföljning med utgångspunkt i dina individuella behov. 
+                    Jag möter dig med respekt, nyfikenhet och lyhördhet.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    Vi erbjuder även diagnostiska utredningar vid oklara tillstånd eller långvariga besvär och hjälper dig att förstå och förhålla dig till det du bär på. 
+                    Jag erbjuder även diagnostiska utredningar vid oklara tillstånd eller långvariga besvär och försöker hjälpa dig att förstå och förhålla dig till det du bär på. 
                     Aniara Psykiatri finns för dig som inte fullt ut får den hjälp du behöver inom primärvården, och som önskar en mer specialiserad och långsiktig psykiatrisk kontakt. 
                     Både nya och återkommande patienter är varmt välkomna
                   </p>
                 </div>
               </div>
 
-              {/* Höger kolumn: Team */}
-              <div className="flex flex-col items-center"> {/* Centrerar allt inom denna kolumn */}
-                <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-6 text-center">
-                  Mottagningen drivs av
-                </h2>
-
-                {/* Endast ett kort, centrerat */}
-                <div className="flex justify-center">
-                  <Card className="hover:shadow-card transition-all duration-300 max-w-md w-full">
-                    <CardContent className="p-6 text-center">
-                      <div className="w-16 h-16 bg-gradient-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                        <Users className="h-8 w-8 text-secondary-foreground" />
-                      </div>
-
-                      <h3 className="text-xl font-bold text-foreground mb-2">
-                        {team[0].name}
-                      </h3>
-
-                      <p className="text-primary font-medium mb-4">
-                        {team[0].role}
-                      </p>
-
-                      <p className="text-sm text-muted-foreground mb-4">
-                        {team[0].intro}
-                      </p>
-
-                      <ul className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
-                        {team[0].speciality.map((item, index) => (
-                          <li key={index} className="list-disc list-inside">
-                            {item}
-                          </li>
-                        ))}
-                      </ul>
-                    </CardContent>
-                  </Card>
-                </div>
-              </div>
+              
             </div>
           </div>
         </section>

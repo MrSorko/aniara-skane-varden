@@ -38,6 +38,7 @@ const Footer = () => {
                 <div>
                   <div className="text-background">Jörgen kocksgatan 9</div>
                   <div className="text-background">211 20 Malmö</div>
+                  <div className="text-background">"Samma lokaler som Mindler"</div>
                 </div>
               </div>
             </div>

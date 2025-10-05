@@ -1,11 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { FileText, CreditCard, Heart, ArrowRight } from "lucide-react";
+import { FileText, CreditCard, Haze, ArrowRight } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
     {
       icon: FileText,
-      title: "1. Kontakta oss",
+      title: "1. Kontakt",
       description: (
         <span>
           Skriv SMS till{" "}
@@ -22,8 +22,8 @@ const HowItWorks = () => {
       )
     },
     {
-      icon: Heart,
-      title: "2. Vi kontaktar dig",
+      icon: FileText,
+      title: "2. Återkoppling",
       description: "Vi återkommer inom 48 timmar för att boka ditt första besök."
     }
   ];
@@ -33,7 +33,7 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">
-            Så funkar det att söka vård hos oss
+            Så funkar det att söka vård på Aniarapsykiatri
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Två enkla steg från kontakt till första besök.
@@ -82,18 +82,16 @@ const HowItWorks = () => {
                   Avgifter & ersättning
                 </h3>
                 <p className="text-muted-foreground">
+                  200kr upp till högkostnadsskyddet.
+                  <br />
                   Vården omfattas av högkostnadsskydd och frikort, vilket gör att du bara betalar patientavgift enligt Region Skånes taxa.
+                </p>
+                <p className="text-muted-foreground">
+                  Avbokningar måste göras senast 24h innan besök, annars debiteras du 600 kr.
                 </p>
               </div>
             </CardContent>
           </Card>
-        </div>
-
-        {/* Cancellation notice */}
-        <div className="mt-12 p-6 bg-yellow-50 border border-white-300 rounded-lg text-center">
-          <p className="text-black-800 font-semibold">
-            Avbokningar måste göras senast 24h innan besök, annars debiteras du 600 kr.
-          </p>
         </div>
       </div>
     </section>
