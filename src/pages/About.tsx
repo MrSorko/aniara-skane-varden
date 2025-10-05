@@ -45,10 +45,10 @@ const About = () => {
           </div>
         </section>
 
-        {/* Mission & Team Section */}
+        {/* Mission Section */}
         <section className="py-16 lg:py-24">
-          <div className="container mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="container mx-auto px-48">
+            <div className="grid lg:grid-cols-1 gap-12 items-start">
               {/* Vänster kolumn: Filosofi */}
               <div className="space-y-8">
                 <h2 className="text-3xl lg:text-4xl font-bold text-foreground">
