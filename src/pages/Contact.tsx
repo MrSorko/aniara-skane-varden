@@ -19,8 +19,8 @@ const Contact = () => {
                 Kontakta <span className="text-primary">Aniarapsykiatri</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Vi finns här för dig. Kontakta oss för bokning, frågor eller information 
-                om vår psykiatriska vård.
+                Kontakta mig för bokning, frågor eller information 
+                om mottagningen.
               </p>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                           <h3 className="text-lg font-semibold text-foreground">E-post</h3>
                           <p className="text-xl font-bold text-secondary">aniarapsykiatri@gmail.com</p>
                           <p className="text-muted-foreground">
-                            Vi svarar inom 48 timmar på vardagar<br />
+                            Jag svarar inom 48 timmar på vardagar<br />
                           </p>
                         </div>
                       </div>

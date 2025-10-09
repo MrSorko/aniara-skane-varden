@@ -20,11 +20,11 @@ const Hero = () => {
             </div>
             <div>
               <div className="text-2xl font-semibold text-foreground">
-                Kontakta oss för att boka tid
+                Kontakt för att boka tid
               </div>
               <div className="text-muted-foreground mt-1 space-y-1">
                 <div className="whitespace-nowrap">
-                  genom att skriva SMS till{" "}
+                  skriv SMS till{" "}
                   <span className="font-medium text-foreground">
                     <a href="tel:+46760075471" className="hover:underline">
                       076 007 54 71

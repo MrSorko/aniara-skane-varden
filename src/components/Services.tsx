@@ -6,14 +6,12 @@ const Services = () => {
     {
       icon: Brain,
       title: "Psykiatrisk bedömning",
-      description: "Grundlig utredning och diagnostik av psykiska besvär.",
-      features: ["Klinisk intervju", "Standardiserade bedömningsskalor", "Individuell behandlingsplan"]
+      description: "Grundlig utredning och diagnostik av psykiska besvär."
     },
     {
       icon: Stethoscope,
       title: "Läkarkontakt & medicinering",
-      description: "Medicinsk behandling och uppföljning av legitimerad läkare specialiserad inom psykiatri.",
-      features: ["Medicinjustering", "Biverkningsuppföljning", "Regelbunden kontakt"]
+      description: "Medicinsk behandling och regelbunden uppföljning."
     }
   ];
 
@@ -21,7 +19,7 @@ const Services = () => {
     {
       icon: Clock,
       title: "Kort väntetid",
-      description: "Vi strävar efter att erbjuda tid inom 1 vecka"
+      description: "Jag strävar efter att erbjuda tid inom 1 vecka"
     },
     {
       icon: Shield,
@@ -63,14 +61,6 @@ const Services = () => {
                     <div className="flex-1 space-y-6">
                       <h3 className="text-xl font-bold text-foreground">{service.title}</h3>
                       <p className="text-l text-muted-foreground">{service.description}</p>
-                      <div className="space-y-2">
-                        {service.features.map((feature, idx) => (
-                          <div key={idx} className="flex items-center gap-2">
-                            <div className="w-2 h-2 bg-secondary rounded-full" />
-                            <span className="text-l text-muted-foreground">{feature}</span>
-                          </div>
-                        ))}
-                      </div>
                     </div>
                   </div>
                 </CardContent>
