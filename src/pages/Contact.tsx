@@ -16,7 +16,7 @@ const Contact = () => {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h1 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">
-                Kontakta <span className="text-primary">Aniarap sykiatri</span>
+                Kontakta <span className="text-primary">Aniara psykiatri</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                 Kontakta mig för bokning, frågor eller information 
