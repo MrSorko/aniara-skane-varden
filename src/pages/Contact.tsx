@@ -86,15 +86,15 @@ const Contact = () => {
                         <div className="space-y-2">
                           <h3 className="text-lg font-semibold text-foreground">Öppettider</h3>
                           <div className="space-y-1">
-                            <div className="flex justify-between">
+                            <div className="flex justify-between gap-x-6">
                               <span className="text-muted-foreground">Måndag - Fredag:</span>
                               <span className="font-medium">08:00 - 17:00</span>
                             </div>
-                            <div className="flex justify-between">
+                            <div className="flex justify-between gap-x-6">
                               <span className="text-muted-foreground">Lördag:</span>
                               <span className="font-medium">10:00 - 14:00</span>
                             </div>
-                            <div className="flex justify-between">
+                            <div className="flex justify-between gap-x-6">
                               <span className="text-muted-foreground">Söndag:</span>
                               <span className="text-muted-foreground">Stängt</span>
                             </div>
