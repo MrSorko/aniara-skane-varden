@@ -22,7 +22,7 @@ const HowItWorks = () => {
     {
       icon: FileText,
       title: "2. Återkoppling",
-      description: "Vi återkommer inom 48 timmar för att boka ditt första besök."
+      description: "Jag återkommer inom 48 timmar för att boka ditt första besök."
     }
   ];
 
