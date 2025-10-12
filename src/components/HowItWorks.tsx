@@ -16,8 +16,6 @@ const HowItWorks = () => {
           <a href="mailto:aniarapsykiatri@gmail.com" className="font-medium text-foreground hover:underline">
             aniarapsykiatri@gmail.com.
           </a>
-          <br/>
-          Om du fått remiss från vårdcentral kontaktar vi dig direkt.
         </span>
       )
     },

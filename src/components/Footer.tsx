@@ -46,17 +46,6 @@ const Footer = () => {
         </div>
         
         <div className="mt-3 pt-4 border-t border-background/20">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="text-sm text-background/60">
-              © 2025 Aniarapsykiatri. Organisationsnummer: 559310-7914
-            </div>
-            
-            <div className="flex items-center gap-6 text-sm text-background/60">
-              <span>Legitimerad vårdpersonal</span>
-              <span>•</span>
-              <span>Kvalitetssäkrad vård</span>
-            </div>
-          </div>
         </div>
       </div>
     </footer>

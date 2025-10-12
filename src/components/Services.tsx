@@ -24,7 +24,7 @@ const Services = () => {
     {
       icon: Shield,
       title: "Trygg miljö",
-      description: "Professionell och välkomnande atmosfär där du ska känna dig trygg"
+      description: "Välkomnande atmosfär där du ska känna dig trygg"
     }
   ];
 
