@@ -24,7 +24,7 @@ const Hero = () => {
               </div>
               <div className="text-muted-foreground mt-1 space-y-1">
                 <div className="whitespace-nowrap">
-                  Skriv SMS till{" "}
+                  Telefonnummer:{" "}
                   <span className="font-medium text-foreground">
                     <a href="tel:+46760075471" className="hover:underline">
                       076 007 54 71
@@ -32,7 +32,7 @@ const Hero = () => {
                   </span>
                 </div>
                 <div className="whitespace-nowrap">
-                  eller maila till{" "}
+                  E-post:{" "}
                   <span className="font-medium text-foreground">
                     aniarapsykiatri@gmail.com
                   </span>
