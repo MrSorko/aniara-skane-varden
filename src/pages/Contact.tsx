@@ -205,6 +205,9 @@ const Contact = () => {
                           placeholder="Skriv ditt meddelande här..."
                           className="w-full p-3 rounded-lg border border-border bg-card focus:ring-2 focus:ring-primary focus:outline-none resize-none"
                         />
+                        <p className="text-xs text-muted-foreground mt-1">
+                          Observera att e-post inte är en säker kanal – skriv inte känsliga uppgifter
+                        </p>
                       </div>
 
                       <Button type="submit" className="w-full btn-primary py-3 text-lg">
