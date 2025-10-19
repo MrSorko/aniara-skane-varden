@@ -16,13 +16,21 @@ const HowItWorks = () => {
           <a href="mailto:aniarapsykiatri@gmail.com" className="font-medium text-foreground hover:underline">
             aniarapsykiatri@gmail.com.
           </a>
+          <p className="text-muted-foreground">
+            Observera att e-post inte är en säker kanal – skriv inte känsliga uppgifter
+          </p>
         </span>
       )
     },
     {
       icon: FileText,
       title: "2. Återkoppling",
-      description: "Jag återkommer inom 48 timmar för att boka ditt första besök."
+      description: (
+        <span>Jag försöker alltid återkomma så snart jag kan, oftast inom några dagar.
+          <br/>
+          Vid hög belastning kan det ta något längre tid, men du får alltid svar.
+        </span>
+      )
     }
   ];
 
@@ -77,13 +85,16 @@ const HowItWorks = () => {
                   Avgifter & ersättning
                 </h3>
                 <p className="text-muted-foreground">
-                  200kr upp till högkostnadsskyddet.
+                  200 kr per besök (upp till högkostnadsskyddet på 1 450 kr för 2025) och frikort gäller.
                   <br />
-                  Vården omfattas av högkostnadsskydd och frikort, vilket gör att du bara betalar patientavgift enligt Region Skånes taxa.
+                  Kostnaden är densamma som inom den offentliga specialistvården.
                 </p>
                 <p className="text-muted-foreground">
-                  Avbokningar måste göras senast 24h innan besök, annars debiteras du 600 kr.
+                  Avbokning eller ombokning ska ske senast 24 timmar före bokad tid.
+                  <br/>
+                  Vid sen avbokning eller uteblivet besök debiteras 600 kr, även för dig som har frikort, i enlighet med Region Skånes taxa.
                 </p>
+                
               </div>
             </CardContent>
           </Card>

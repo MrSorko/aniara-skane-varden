@@ -68,16 +68,19 @@ export default function Faq() {
                         <h3 className="text-xl font-semibold text-foreground mb-2">
                           Vad kostar det?
                         </h3>
-                        <p>200kr upp till högkostnadsskyddet (1400kr för 2025). Kostnaden är samma som offentlig specialistvård.</p>
-                        <p className="mt-2">Undantag: vissa behöver inte betala avgift:</p>
+                        <p>Avgiften är <span className="font-bold">200 kr per besök</span> (upp till högkostnadsskyddet på <span className="font-bold">1 450 kr för 2025</span>).
+                           <br/>
+                           <span className="font-bold">Frikort gäller</span>, och kostnaden är densamma som inom den offentliga specialistvården.</p>
+                        <p className="mt-2"><span className="font-bold">Ingen avgift tas ut om:</span></p>
                         <ul className="list-disc list-inside ml-4 mt-1 space-y-1">
-                          <li>Du är yngre än 20 år</li>
-                          <li>Du har fyllt 85 år</li>
-                          <li>Du har ett frikort</li>
+                          <li>Du är <span className="font-bold">yngre än 20 år</span></li>
+                          <li>Du har <span className="font-bold">fyllt 85 år</span></li>
+                          <li>Du har <span className="font-bold"> gilltigt frikort</span></li>
                         </ul>
                         <br />
-                        Jag förstår att det ibland kan vara ekonomiskt ansträngt. Du är alltid välkommen att prata med mig om det – jag kan bevilja undantag från avgiften när det behövs.
-                        Jag vill att vården ska vara tillgänglig för alla.
+                          Jag är medveten om att ekonomiska förutsättningar kan variera.
+                          Om avgiften skulle utgöra ett hinder, <span className="font-bold">är du alltid välkommen att prata med mig </span> – i särskilda fall kan avgiften <span className="font-bold">efterskänkas.</span>
+                          Målet är att vården ska vara tillgänglig för alla.
                       </div>
                     </div>
 
@@ -88,7 +91,8 @@ export default function Faq() {
                         <h3 className="text-xl font-semibold text-foreground mb-2">
                           Kan jag få hjälp med utredning?
                         </h3>
-                        <p>Ja, jag erbjuder psykiatriska utredningar. Ibland samarbetar jag med externa aktörer vid behov. Jag guidar dig genom hela processen.</p>
+                        <p>Ja. Jag erbjuder <span className="font-bold">psykiatriska utredningar.</span> Vid behov samarbetar jag med externa specialister.
+                           Jag guidar dig genom hela processen – från bedömning till återkoppling och uppföljning.</p>
                       </div>
                     </div>
 
@@ -99,7 +103,7 @@ export default function Faq() {
                         <h3 className="text-xl font-semibold text-foreground mb-2">
                           Kan jag få medicinsk behandling?
                         </h3>
-                        <p>Ja, jag erbjuder medicinsk behandling och följer upp resultaten noggrant.</p>
+                        <p>Ja. Jag erbjuder <span className="font-bold">medicinsk behandling och uppföljning</span>, med fokus på effekt, biverkningar och trygg långsiktig planering.</p>
                       </div>
                     </div>
 
@@ -110,7 +114,7 @@ export default function Faq() {
                         <h3 className="text-xl font-semibold text-foreground mb-2">
                           Kan jag få sjukskrivning?
                         </h3>
-                        <p>Ja, vid behov och enligt gällande regler.</p>
+                        <p>Ja. Vid behov kan <span className="font-bold">sjukskrivning</span> utfärdas enligt gällande regler och i samråd med dig som patient.</p>
                       </div>
                     </div>
 

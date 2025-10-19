@@ -37,9 +37,9 @@ const About = () => {
               </h1>
               
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Jag driver en privat psykiatrimottagning som arbetar på uppdrag av Region Skåne. 
-                Min mission är att erbjuda högkvalitativ psykiatrisk vård i en trygg och 
-                välkomnande miljö.
+                Jag driver en privat psykiatrimottagning på uppdrag av Region Skåne, inom ramen för Lagen om läkarvårdsersättning (LOL). 
+                <br/>
+                Min strävan är att erbjuda högkvalitativ psykiatrisk vård i en trygg och välkomnande miljö där varje möte präglas av respekt, närvaro och kontinuitet.
               </p>
             </div>
           </div>
@@ -57,23 +57,22 @@ const About = () => {
 
                 <div className="space-y-6">
                   <p className="text-lg text-muted-foreground">
-                    Hos Aniara Psykiatri möts du med respekt, lyhördhet och en genuin vilja att förstå just dina behov. 
-                    Här står du som människa i centrum, inte enbart din diagnos eller dina symtom. 
-                    Min ambition är att skapa en trygg plats där du kan få stöd, behandling och vägledning utifrån din unika livssituation.
+                    Jag möter varje patient med lyhördhet, nyfikenhet och respekt för den unika berättelse som formar människan bakom symtomen.
+                    För mig handlar psykiatri om mer än diagnoser och behandling – det handlar om att förstå sammanhanget, att lyssna och att bygga tillit över tid.
+                    Mitt mål är att skapa en plats där du kan känna trygghet, förståelse och riktning, oavsett var du befinner dig i livet.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    Mottagningen drivs av mig, Bokan Barazanji, specialistläkare i psykiatri med bred erfarenhet av att bedöma och behandla ett stort spektrum av psykiatriska tillstånd. 
-                    Här finns även möjlighet till utredning, regelbunden uppföljning och läkemedelsbehandling.
+                    Jag heter Bokan Barazanji och är specialistläkare i psykiatri med bred erfarenhet av att bedöma och behandla ett stort spektrum av psykiska tillstånd.
+                    Jag har arbetat inom både allmänpsykiatrin och rättspsykiatrin, med särskilt fokus på komplexa situationer där struktur, stabilitet och samarbete är avgörande.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    Jag finns för de som söker stöd och vägledning i livets mer svårnavigerade skeden. 
-                    Jag erbjuder psykiatriska bedömningar, utredningar, samtal, medicinsk behandling och uppföljning med utgångspunkt i dina individuella behov. 
-                    Jag möter dig med respekt, nyfikenhet och lyhördhet.
+                    Jag erbjuder psykiatriska bedömningar, diagnostiska utredningar, medicinsk behandling och regelbunden uppföljning, alltid med utgångspunkt i varje persons individuella behov.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    Jag erbjuder även diagnostiska utredningar vid oklara tillstånd eller långvariga besvär och försöker hjälpa dig att förstå och förhålla dig till det du bär på. 
-                    Aniara Psykiatri finns för dig som inte fullt ut får den hjälp du behöver inom primärvården, och som önskar en mer specialiserad och långsiktig psykiatrisk kontakt. 
-                    Både nya och återkommande patienter är varmt välkomna
+                    Verksamheten finns till för dig som inte fullt ut fått det stöd du behöver inom primärvården och som önskar en mer specialiserad och långsiktig kontakt inom psykiatrin.
+                    <br/>
+                    <br/>
+                    Både nya och återkommande patienter är varmt välkomna.
                   </p>
                 </div>
               </div>
