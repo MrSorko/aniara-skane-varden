@@ -91,7 +91,7 @@ const Contact = () => {
                         </div>
                         <div className="space-y-2">
                           <h3 className="text-lg font-semibold text-foreground">E-post</h3>
-                          <p className="text-xl font-bold text-secondary">aniarapsykiatri@gmail.com</p>
+                          <p className="text-xl font-bold text-primary">aniarapsykiatri@gmail.com</p>
                           <p className="text-muted-foreground">
                             Jag försöker alltid återkomma så snart jag kan, oftast inom några dagar.
                             <br />
