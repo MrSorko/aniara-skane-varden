@@ -11,7 +11,7 @@ const Header = () => {
     { name: "Vård & tjänster", href: "/vard-tjanster" },
     //{ name: "Så funkar det", href: "/sa-funkar-det" },
     { name: "Kontakt", href: "/kontakt" },
-    { name: "Frågor & svar", href: "/faq" },
+    //{ name: "Frågor & svar", href: "/faq" },
   ];
 
   return (

@@ -66,7 +66,7 @@ const About = () => {
                     Jag har arbetat inom både allmänpsykiatrin och rättspsykiatrin, med särskilt fokus på komplexa situationer där struktur, stabilitet och samarbete är avgörande.
                   </p>
                   <p className="text-lg text-muted-foreground">
-                    Jag erbjuder psykiatriska bedömningar, diagnostiska utredningar, medicinsk behandling och regelbunden uppföljning, alltid med utgångspunkt i varje persons individuella behov.
+                    Jag erbjuder psykiatriska bedömningar, medicinsk behandling och regelbunden uppföljning, alltid med utgångspunkt i varje persons individuella behov.
                   </p>
                   <p className="text-lg text-muted-foreground">
                     Verksamheten finns till för dig som inte fullt ut fått det stöd du behöver inom primärvården och som önskar en mer specialiserad och långsiktig kontakt inom psykiatrin.

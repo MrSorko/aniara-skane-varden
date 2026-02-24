@@ -6,7 +6,7 @@ const Services = () => {
     {
       icon: Brain,
       title: "Psykiatrisk bedömning",
-      description: "Grundlig utredning och diagnostik av psykiska besvär."
+      description: "Grundlig kartläggning och bedömning av psykiska besvär."
     },
     {
       icon: Stethoscope,
